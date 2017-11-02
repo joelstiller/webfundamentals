@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title id=title>My Registration Form</title>
+    </head>
+    <body>
+        <h1>My Registration Form</h1>
+        <form>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <br>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <br>
+            <label for="email_address">Email Address:</label>
+            <input type="text" id="email_address" name="email">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <label for="confirm_pass">Confirm Password:</label>
+            <input type="password" id="confirm_pass" name="confirm_pass">
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <br>
+            <input type="radio" id="gender_male" name="gender" value="Male">Male
+            <input type="radio" id="gender_female" name="gender" value="Female">Female
+            <input type="radio" id="gender_chopper" name="gender" value="Attack Helicopter">Attack Helicopter
+            <br>
+            <label for="descrip">A short description about yourself.</label>
+            <br>
+            <textarea id="descrip" name="descrip" rows="10" cols="50"></textarea>
+            <br>
+            <label for="fav_lang">Favorite Language</label>
+            <select id="fav_lang" name="fav_lang">
+                <option value="PHP">PHP</option>
+                <option value="Javascript">Javascript</option>
+                <option value="Perl">Perl</option>
+                <option value="Python">Python</option>
+            </select>    
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
