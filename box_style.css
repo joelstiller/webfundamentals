@@ -34,18 +34,22 @@ body {
     background-color: red;
     display: inline-block;
     margin-left:0px;
+    vertical-align: top;
    }
    .subcontents{
     height: 200px;
     width: 210px;
     background-color: yellow;
     display:inline-block;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom:10px;
    }
    #advertisement{
     height: 120px;
     width: 660px;
     background-color: purple;
     display:block;
+    margin:10px;
    }
    
